@@ -1,1 +1,1 @@
-"# npsi chess society" 
+# npsi chess society
