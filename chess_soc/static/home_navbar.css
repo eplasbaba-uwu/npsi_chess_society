@@ -87,7 +87,7 @@ header{
     .navbar{
         position: absolute;
         top: 100%;
-        right: -100%;
+        right: 2%;
         width: 270px;
         height: 29vh;
         background: var(--main-color);
@@ -110,8 +110,5 @@ header{
     }
     .navbar a.active{
         color: var(--text-color);
-    }
-    .navbar .open{
-        right: 2%;
     }
 }
