@@ -6,7 +6,7 @@ body{
 }
 
 .all_cards{
-    margin: 0 auto; /*centers for us*/
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
@@ -53,6 +53,6 @@ body{
 .content > p:last-of-type{
     margin-bottom: 0px;
 }
-h1{
+/* h1{
     color: rgb(172, 73, 7);
-}
+} */
