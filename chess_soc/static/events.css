@@ -6,7 +6,7 @@ body{
 }
 
 .all_cards{
-    margin: 0 auto;
+    margin: 0 auto; /*centers for us*/
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
@@ -14,12 +14,12 @@ body{
 }
 .card{
     box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    
 }
 .cardimg{
     width: 100%;
     display: block;
     border-radius: 10px;
-
 }
 .content{
     line-height: 1.4;
@@ -53,6 +53,9 @@ body{
 .content > p:last-of-type{
     margin-bottom: 0px;
 }
-/* h1{
-    color: rgb(172, 73, 7);
-} */
+h1{
+    color: #222327;
+}
+h5{
+    color: #222327;
+}
