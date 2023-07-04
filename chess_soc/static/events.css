@@ -6,6 +6,7 @@ body{
 }
 
 .all_cards{
+    padding-top: 10%;
     margin: 0 auto; /*centers for us*/
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -54,12 +55,3 @@ body{
     margin-bottom: 0px;
 }
 
-/* THE STYLING FOR H1 AND H5 SHOULD NOT BE CHANGED AS IT ALLOWS THE TEXT 
-REQUIRED FOR SPACING (refer to the comment above <h1> in events.html) TO
-MATCH WITH THE BACKGROUND. */
-h1{
-    color: #222327;
-}
-h5{
-    color: #222327;
-}
