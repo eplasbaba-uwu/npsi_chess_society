@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'home_navbar.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>NPS Chess Society</title>
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="{% static 'favicon.png' %}" width="40" height="40"><span><!--add text if needed--></span></a>
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about" class="active">About Us</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="#">Articles</a></li>
+        </ul>
+        <div class="main">
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+</body>
+</html>
