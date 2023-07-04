@@ -1,0 +1,1 @@
+# npsi chess society
