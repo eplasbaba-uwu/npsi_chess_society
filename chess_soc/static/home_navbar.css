@@ -113,4 +113,7 @@ header{
     .navbar a.active{
         color: var(--text-color);
     }
+    .navbar .open{
+        right: 2%;
+    }
 }
