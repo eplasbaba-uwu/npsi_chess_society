@@ -82,14 +82,14 @@ header{
 
     }
 }
-@media (max-width: 50px){
+@media (max-width: 90px){
     #menu-icon{
-        display: block;
+        display: flex;
     }
     .navbar{
         position: absolute;
         top: 100%;
-        right: 2%;
+        right: -100%;
         width: 270px;
         height: 29vh;
         background: var(--main-color);
