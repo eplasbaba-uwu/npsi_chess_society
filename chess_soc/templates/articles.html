@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
     <link rel="stylesheet" href="{% static 'home_navbar.css' %}">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -15,10 +14,10 @@
     <header>
         <a href="" class="logo"><img src="{% static 'favicon.png' %}" width="40" height="40"><span><!--add text if needed--></span></a>
         <ul class="navbar">
-            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/about">Contact</a></li>
             <li><a href="/events">Events</a></li>
-            <li><a href="/articles">Articles</a></li>
+            <li><a href="/articles" class="active">Articles</a></li>
         </ul>
         <div class="main">
             <div class="bx bx-menu" id="menu-icon"></div>
