@@ -39,7 +39,7 @@ header{
 }
 .logo span{
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .navbar{
