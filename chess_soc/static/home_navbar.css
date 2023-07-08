@@ -117,6 +117,11 @@ header{
         right: 2%;
     }
 }
+@media(max-width:556px){
+    .logo span{
+        font-size: 0px;
+    }
+}
 @media(max-width:470px){
     .navbar a{
         font-size: 1rem;
@@ -131,6 +136,7 @@ header{
     .logo img{
         width: 0px;
     }
+
 }
 @media(max-width:370px){
     .navbar a{
