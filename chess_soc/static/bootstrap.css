@@ -254,6 +254,7 @@ hr {
   cursor: pointer;
 }
 .container {
+  padding-top: 10%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1540,11 +1541,10 @@ input[type="button"].btn-block {
   pointer-events: none;
 }
 .jumbotron {
-  padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #45415a;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -1567,6 +1567,27 @@ input[type="button"].btn-block {
 .jumbotron .container {
   max-width: 100%;
 }
+@media(max-width:426px){
+  .container .jumbotron,
+  .container-fluid .jumbotron{
+    padding-top: 18%;
+  }
+}
+
+@media(max-width:376px){
+  .container .jumbotron,
+  .container-fluid .jumbotron{
+    padding-top: 20%;
+  }
+}
+
+@media(max-width:321px){
+  .container .jumbotron,
+  .container-fluid .jumbotron{
+    padding-top: 25%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
@@ -1579,7 +1600,7 @@ input[type="button"].btn-block {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 1.8em;
   }
 }
 .thumbnail {
