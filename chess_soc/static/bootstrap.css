@@ -7,6 +7,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
   margin: 0;
 }
@@ -1544,13 +1546,14 @@ input[type="button"].btn-block {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #45415a;
+  background-color: #4c4d53;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
 }
 .jumbotron p {
+  font-family: 'Lato', sans-serif;
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
