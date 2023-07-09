@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
@@ -165,7 +164,7 @@ header{
 .flip-card {
     background-color: transparent;
     width: 30vw;
-    height: 30vh;
+    height: 38vh;
     perspective: 1000px;
     font-family: sans-serif;
   }
@@ -216,3 +215,15 @@ header{
   .list_of_contribs{
     padding-right: 80%;
   }
+  .flip-card-final{
+    background-color: transparent;
+    width: 30vw;
+    height: 38vh;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin-left:50%;
+  }
+  .flip-card-final:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
