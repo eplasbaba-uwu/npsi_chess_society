@@ -7,22 +7,35 @@
     
     <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
     <link rel="stylesheet" href="{% static 'home_navbar.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap-theme.css' %}">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>NPS Chess Society</title>
 </head>
 <body>
     <header>
-        <a href="" class="logo"><img src="{% static 'favicon.png' %}" width="40" height="40"><span><!--add text if needed--></span></a>
+        <a href="" class="logo"><img src="{% static 'favicon.png' %}" width="50" height="50"><span>&nbsp;<!--add text if needed-->Chess Society</span></a>
         <ul class="navbar">
             <li><a href="/" class="active">Home</a></li>
-            <li><a href="/about">About Us</a></li>
+            <li><a href="/about">Contact</a></li>
             <li><a href="/events">Events</a></li>
-            <li><a href="#">Articles</a></li>
+            <li><a href="/articles">Articles</a></li>
         </ul>
         <div class="main">
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Welcome to NPSi Chess Society.</h1>
+            <p class="lead">Where passion meets intellect. We intend to unite players of all levels, foster friendly competition, share knowledge, as well as love for the game.</p>
+            <hr class="my-4">
+            <p>Unlock a world of exclusive tournaments, captivating workshops, and invaluable resources made with the goal of maximising your learning experience.</p>
+            <p><br></p>
+        </div>
+    </div>
+    <script src="{% static 'jquery.js' %}"></script>
+    <script src="{% static 'bootstrap.js' %}"></script>
 </body>
 </html>
