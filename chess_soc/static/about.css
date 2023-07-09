@@ -155,7 +155,7 @@ header{
 }
 
 .all_cards{
-    padding-top: 8%;
+    padding-top: 10%;
     margin: 0 auto; /*centers for us*/
     display: grid;
     grid-template-columns: repeat(3,1fr);
