@@ -55,7 +55,6 @@ dfn {
   font-style: italic;
 }
 h1 {
-  color: transparent;
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -257,7 +256,7 @@ hr {
   cursor: pointer;
 }
 .container {
-  padding-top: 13%;
+  padding-top: 10%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1551,11 +1550,10 @@ input[type="button"].btn-block {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: #fff;
+  color: inherit;
 }
 .jumbotron p {
   font-family: 'Lato', sans-serif;
-  color: #c2bebe;
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
