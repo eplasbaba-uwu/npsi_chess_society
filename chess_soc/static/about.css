@@ -11,6 +11,9 @@
     text-decoration: none;
     list-style: none;
 }
+body {
+  margin: 0; height: 100%; overflow: hidden
+}
 .all_cards{
     padding-top: 10%;
     margin: 0 auto; /*centers for us*/
