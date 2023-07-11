@@ -6,69 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
     <link rel="stylesheet" href="{% static 'events.css' %}">
-    <link rel="stylesheet" href="{% static 'home_navbar.css' %}">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap-theme.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>NPS Chess Society</title>
+    <script defer src="{% static 'script.js' %}"></script>
+
 </head>
 <body>
-    <header>
-        <a href="" class="logo"><img src="{% static 'favicon.png' %}" width="50" height="50"><span>&nbsp;Chess Society<!--add text if needed--></span></a>
-        <ul class="navbar">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">Contact</a></li>
-            <li><a href="/events" class="active">Events</a></li>
-            <li><a href="/articles">Articles</a></li>
-        </ul>
-        <div class="main">
-            <div class="bx bx-menu" id="menu-icon"></div>
+    <header class="header">
+        <div class="top-bar">
+          <div class="top-bar__content">
+            <section class="instagram">
+              <a href="https://www.instagram.com/npschesssociety/" class="fa-brands fa-square-instagram fa-xl"></a>
+            
+              <span>@npschesssociety</span>
+            </section>
+            <section class="email">
+              <a href="mailto:npsichesssociety@gmail.com" class="fa-regular fa-envelope fa-xl"></a>
+              <span>npsichesssociety@gmail.com</span>
+            </section>
+          </div>
+        </div>
+    
+        <div class="bottom-bar">
+          <div class="bottom-bar__content">
+            <a href="/" class="logo">
+              <img class="logo__img" src="{% static 'logo.png' %}" alt="logo">
+           
+            </a>
+        
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="/">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="/about">About Us</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="/events">Events</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="/articles">Articles</a>
+                </li>
+              </ul>
+            </nav>
+      
+            <div class="hamburger">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+          </div>
         </div>
     </header>
-<div class="all_cards">
-    <div class="card">
-        <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
-        <div class="content">
-            <p>INFORMATION GOES HERE</p>
+    <div class="all_cards">
+        <div class="card">
+            <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
+            <div class="content">
+                <p>INFORMATION GOES HERE</p>
+            </div>
+            <div class="extra">
+                <div>
+                    <a href="" class="link">Read More</a>
+                </div>
+            </div>
         </div>
-        <div class="extra">
-            <div>
-                <a href="" class="link">Read More</a>
+        <div class="card">
+            <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
+            <div class="content">
+                <p>INFORMATION GOES HERE</p>
+            </div>
+            <div class="extra">
+                <div>
+                    <a href="" class="link">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
+            <div class="content">
+                <p>INFORMATION GOES HERE</p>
+            </div>
+            <div class="extra">
+                <div>
+                    <a href="" class="link">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
+            <div class="content">
+                <p>INFORMATION GOES HERE</p>
+            </div>
+            <div class="extra">
+                <div>
+                    <a href="" class="link">Read More</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="card">
-        <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
-        <div class="content">
-            <p>INFORMATION GOES HERE</p>
-        </div>
-        <div class="extra">
-            <div>
-                <a href="" class="link">Read More</a>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
-        <div class="content">
-            <p>INFORMATION GOES HERE</p>
-        </div>
-        <div class="extra">
-            <div>
-                <a href="" class="link">Read More</a>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <img  class="cardimg" src="{% static 'favicon.png' %}" alt="Image not supported">
-        <div class="content">
-            <p>INFORMATION GOES HERE</p>
-        </div>
-        <div class="extra">
-            <div>
-                <a href="" class="link">Read More</a>
-            </div>
-        </div>
-    </div>
-</div>
 </body>
 </html>
