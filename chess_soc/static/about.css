@@ -11,12 +11,14 @@
     text-decoration: none;
     list-style: none;
 }
+
 .all_cards{
-    padding-top: 10%;
+    padding-top: 13%;
     margin: 0 auto; /*centers for us*/
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
+    z-index: 1;
 }
 
 .flip-card {
@@ -73,7 +75,7 @@
   .list_of_contribs{
     padding-right: 80%;
   }
-  .flip-card-final{
+  .flip-card-last{
     background-color: transparent;
     width: 30vw;
     height: 38vh;
@@ -81,7 +83,75 @@
     font-family: sans-serif;
     margin-left:50%;
   }
-  .flip-card-final:hover .flip-card-inner {
+  .flip-card-slast{
+    background-color: transparent;
+    width: 30vw;
+    height: 38vh;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin-left:50%;
+  }
+  .flip-card-last:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
+  .flip-card-slast:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  @media(max-width:1085px) {
+    .all_cards{
+      padding-top: 16%;
+  }
+  }
+  @media(max-width:900px) {
+    .all_cards{
+      padding-top: 20%;
+  }
+  }
+  @media(max-width:800px) {
+    .all_cards{
+      padding-top: 24%;
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+  }
+  .flip-card{
+    width: 100%;
+  }
+  .flip-card-slast
+{
+  width: 100%;
+  margin-left: 0;
+}
+.flip-card-last
+{
+  width: 100%;
+  margin-left: 50%;
+}
+  }
+@media(max-width:675px) {
+.all_cards{
+  padding-top: 27%;
+}  
+}
+@media(max-width:535px) {
+  .all_cards{
+    padding-top: 30%;
+  }  
+  }
+  @media(max-width:450px) {
+    .all_cards{
+      padding-top: 35%;
+      grid-template-columns: repeat(1,1fr);
+    }  
+    .flip-card-last
+{
+  width: 100%;
+  margin-left: 0;
+}
+    }
+@media (max-width:395px) {
+  .all_cards{
+    padding-top: 43%;
+  }
+  
+}
   
