@@ -5,7 +5,7 @@ body{
 }
 
 .all_cards{
-    padding-top: 9%;
+    padding-top: 10%;
     margin: 0 auto; /*centers for us*/
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -19,6 +19,39 @@ body{
 @media (max-width: 350px){
     .all_cards{
         grid-template-columns: repeat(1,1fr);
+}}
+
+@media (max-width: 860px){
+    .all_cards{
+        padding-top: 14%;
+}}
+
+@media (max-width: 720px){
+    .all_cards{
+        padding-top: 16%;
+}}
+
+@media (max-width: 630px){
+    .all_cards{
+        padding-top: 19%;
+}}
+    
+@media (max-width: 540px){
+    .all_cards{
+        padding-top: 22%;
+}}
+
+@media (max-width: 465px){
+    .all_cards{
+        padding-top: 25%;
+}}
+@media (max-width: 415px){
+    .all_cards{
+        padding-top: 28%;
+}}
+@media (max-width: 360px){
+    .all_cards{
+        padding-top: 32%;
 }}
     
 .cardimg{
