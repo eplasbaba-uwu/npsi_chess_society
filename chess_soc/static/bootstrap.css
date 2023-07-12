@@ -8,6 +8,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Roboto+Mono:wght@300&display=swap');
+
 
 body {
   margin: 0;
@@ -1554,7 +1556,7 @@ input[type="button"].btn-block {
   color: #fff;
 }
 .jumbotron p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'IBM Plex Mono', sans-serif;
   color: #c2bebe;
   margin-bottom: 15px;
   font-size: 21px;
