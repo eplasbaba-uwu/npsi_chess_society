@@ -21,3 +21,27 @@ img {
     display: block;
     margin: 0 auto;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #222327;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: relative;
+  margin-left: 5%;
+  top: -300px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

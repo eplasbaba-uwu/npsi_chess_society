@@ -8,8 +8,6 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Roboto+Mono:wght@300&display=swap');
-
 
 body {
   margin: 0;
@@ -126,7 +124,6 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
   cursor: pointer;
 }
 button[disabled],
@@ -153,7 +150,6 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 input[type="search"] {
-  -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -1556,7 +1552,7 @@ input[type="button"].btn-block {
   color: #fff;
 }
 .jumbotron p {
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #c2bebe;
   margin-bottom: 15px;
   font-size: 21px;
