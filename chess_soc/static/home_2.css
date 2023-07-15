@@ -28,7 +28,7 @@ img {
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
+  visibility: visible;
   width: 150px;
   background-color: #222327;
   color: #fff;
@@ -38,10 +38,19 @@ img {
   /* Position the tooltip */
   position: relative;
   margin-left: 5%;
-  top: -300px;
+  top: -400px;
   z-index: 1;
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
+@media(max-width:430px){
+  .tooltip .tooltiptext{
+    top: -200px
+  }
+}
+@media(max-width:385px){
+  .tooltip .tooltiptext{
+    top: -180px;
+    width: 130px;
+    
+  }
 }
