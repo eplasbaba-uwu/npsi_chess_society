@@ -14,5 +14,5 @@ def about(request):
   return HttpResponse(template.render())
 
 def articles(request):
-  template = loader.get_template('articles.html')
+  template = loader.get_template('resources.html')
   return HttpResponse(template.render())
