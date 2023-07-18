@@ -20,8 +20,7 @@ body{
     background: var(--bg-color);
     color: var(--text-color)
 }
-header{
-    position: fixed;
+.bottom-navbar{
     width: 100%;
     top: 0;
     right: 0;
@@ -34,61 +33,25 @@ header{
     padding: 28px 12%;
     transition: all .50s ease;
 }
-.logo{
-    display: flex;
-    align-items: center;
-
-}
-.logo span{
-    color: var(--text-color);
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-.navbar{
+.bottom-navbar-elements{
     display: flex;   
 }
-.navbar a{
+.bottom-navbar-elements a{
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     padding: 5px 0;
     margin: 0px 30px;
     transition: all .50s ease;
 }
-.navbar a:hover{
+.bottom-navbar-elements a:hover{
     color: var(--main-color)
 }
-.navbar a.active{
-    color: var(--main-color)
-}
+
 .main{
     display: flex;
     align-items: center;
 }
-#menu-icon{
-    font-size: 35px;
-    color: var(--text-color);
-    cursor: pointer;
-    z-index: 10001;
-    display: none;
-}
-
-section {
-    height: 100vh;
-}
-.yellow{
-    padding-top: 10%;
-}
-.tag {
-    opacity: 0;
-    transform: translate(0, 15vh);
-    transition: all 1s;
-}
-.tag.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-}
-
 
 
 
@@ -104,9 +67,6 @@ section {
     }
 }
 @media (max-width: 90px){
-    #menu-icon{
-        display: flex;
-    }
     .navbar{
         position: absolute;
         top: 100%;
@@ -169,4 +129,10 @@ section {
     .navbar a{
         font-size: .7rem;
     }
+}
+.btn-dark{
+    background-color: #37383b;
+}
+.btn-dark:hover{
+    background-color: #343b58;
 }

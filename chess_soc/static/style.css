@@ -16,12 +16,7 @@ a {
   color: inherit;
 }
 
-button {
-  background: none;
-  border: none;
-  font: inherit;
-  color: inherit;
-}
+
 
 /* BASE STYLES */
 body {
@@ -108,22 +103,6 @@ body {
 .nav__link:hover,
 .nav__link:focus {
   color: rgba(255, 255, 255, 1);
-}
-
-.btn {
-  color: #fff;
-  background-color: #0071e3;
-  padding: 8px 20px;
-  border-radius: 1000px;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.btn:hover {
-  background-color:  rgb(28, 128, 228);
 }
 
 .hamburger {

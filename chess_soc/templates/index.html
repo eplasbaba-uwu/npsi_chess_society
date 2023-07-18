@@ -8,6 +8,8 @@
     <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <link rel="stylesheet" href="{% static 'home_2.css' %}">
+    <link rel="stylesheet" href="{% static 'home_navbar.css' %}">
+
     <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'bootstrap-theme.css' %}">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
@@ -122,7 +124,17 @@
           </div>
         </section>
     </div>
-    <h1>REAL</h1>
+      <div class="bottom-navbar">
+        <ul class="bottom-navbar-elements">
+          
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/resources">Resources</a></li>
+        </ul>
+        <div class="main">
+          <button type="button" class="btn btn-dark"><span>Instagram</span></button>
+          <button type="button" class="btn btn-dark"><span>Email</span></button>
+        </div>
+      </div>
     <script src="{% static 'home.js' %}"></script>
     <script src="{% static 'jquery.js' %}"></script>
     <script src="{% static 'bootstrap.js' %}"></script>
