@@ -32,6 +32,12 @@ body {
   z-index: 1001;
 }
 
+#nav-header{
+  position: fixed;
+  width: 100%;
+  z-index: 1001;
+}
+
 .top-bar {
   background-color: rgb(39, 44, 51);
 }

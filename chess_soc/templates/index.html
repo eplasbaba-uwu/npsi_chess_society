@@ -20,17 +20,30 @@
     <script defer src="{% static 'script.js' %}"></script>
 </head>
 <body>
-    <header class="header">
+  <script>
+    window.addEventListener('scroll', function() {
+    var header = document.getElementById('nav-header');
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+    if ((scrollPosition + window.innerHeight) >= document.documentElement.scrollHeight) {
+      // User has scrolled to the end of the webpage
+      header.style.top = '-200px'; // Hide the header
+    } else {
+      header.style.top = '0'; // Show the header
+    }
+  });
+  </script>
+    <header class="header" id="nav-header">
         <div class="top-bar">
           <div class="top-bar__content">
             <section class="instagram">
               <a href="https://www.instagram.com/npschesssociety/" class="fa-brands fa-square-instagram fa-xl"></a>
             
-              <span>@npschesssociety</span>
+              <span style="font-family: 'IBM Plex Mono', sans-serif;">@npschesssociety</span>
             </section>
             <section class="email">
               <a href="mailto:npsichesssociety@gmail.com" class="fa-regular fa-envelope fa-xl"></a>
-              <span>npsichesssociety@gmail.com</span>
+              <span style="font-family: 'IBM Plex Mono', sans-serif;">npsichesssociety@gmail.com</span>
             </section>
           </div>
         </div>
@@ -129,10 +142,13 @@
           
           <li><a href="/about">About Us</a></li>
           <li><a href="/resources">Resources</a></li>
+          <li><a href="/events">Events</a></li>
         </ul>
         <div class="main">
-          <button type="button" class="btn btn-dark"><span>Instagram</span></button>
-          <button type="button" class="btn btn-dark"><span>Email</span></button>
+          <button type="button" class="btn btn-dark">Instagram</button>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+          <button type="button" class="btn btn-dark">Email</button>
         </div>
       </div>
     <script src="{% static 'home.js' %}"></script>

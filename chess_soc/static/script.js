@@ -13,3 +13,4 @@ navItemEls.forEach(navItemEl => {
     hamburgerEl.classList.remove('hamburger--open');
   });
 });
+
