@@ -8,7 +8,6 @@
     <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <link rel="stylesheet" href="{% static 'home_2.css' %}">
-    <link rel="stylesheet" href="{% static 'home_navbar.css' %}">
 
     <link rel="stylesheet" href="{% static 'bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'bootstrap-theme.css' %}">
@@ -20,19 +19,6 @@
     <script defer src="{% static 'script.js' %}"></script>
 </head>
 <body>
-  <script>
-    window.addEventListener('scroll', function() {
-    var header = document.getElementById('nav-header');
-    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-
-    if ((scrollPosition + window.innerHeight) >= document.documentElement.scrollHeight) {
-      // User has scrolled to the end of the webpage
-      header.style.top = '-200px'; // Hide the header
-    } else {
-      header.style.top = '0'; // Show the header
-    }
-  });
-  </script>
     <header class="header" id="nav-header">
         <div class="top-bar">
           <div class="top-bar__content">
@@ -137,20 +123,6 @@
           </div>
         </section>
     </div>
-      <div class="bottom-navbar">
-        <ul class="bottom-navbar-elements">
-          
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/resources">Resources</a></li>
-          <li><a href="/events">Events</a></li>
-        </ul>
-        <div class="main">
-          <button type="button" class="btn btn-dark">Instagram</button>
-          <li>&nbsp;</li>
-          <li>&nbsp;</li>
-          <button type="button" class="btn btn-dark">Email</button>
-        </div>
-      </div>
     <script src="{% static 'home.js' %}"></script>
     <script src="{% static 'jquery.js' %}"></script>
     <script src="{% static 'bootstrap.js' %}"></script>

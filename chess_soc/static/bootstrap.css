@@ -1581,8 +1581,9 @@ input[type="button"].btn-block {
 @media(max-width:321px){
   .container .jumbotron,
   .container-fluid .jumbotron{
-    padding-top: 25%;
+    padding-top: 30%;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
