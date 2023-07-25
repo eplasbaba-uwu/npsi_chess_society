@@ -1,13 +1,13 @@
 section .yellow .tag{
-    height: 100vh;
+    height: 90vh;
   }
   .yellow{
-    padding-top: 10%;
+    padding-top: 5%;
     
   }
   .tag {
     opacity: 0;
-    transform: translate(0, 15vh);
+    transform: translate(0, 20vh);
     transition: all 1s;
   }
   .tag.visible {
@@ -16,7 +16,7 @@ section .yellow .tag{
   }
 
 img {
-    width: 95%;
+    width: 90%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -25,6 +25,7 @@ img {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  height: 100px;
 }
 
 .tooltip .tooltiptext {
