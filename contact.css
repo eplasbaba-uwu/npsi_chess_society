@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -155,8 +157,6 @@ body {
   padding-top: 13%;
   margin: 0 auto; /*centers for us*/
   display: grid;
-  font-family: 'IBM Plex Mono', 'Roboto Mono', monospace;
-  font-weight: 10000;
   grid-template-columns: repeat(3,1fr);
   gap: 15px;
   z-index: 1;
@@ -203,18 +203,18 @@ body {
 }
 
 .flip-card-front {
-  color: #1ca61e;
-  background-color: rgb(42, 37, 37);
+  color: #ff6c0a;
+  background-color: rgb(65, 65, 65);
 }
 
 .flip-card-back {
-  color: rgb(255, 255, 255);
-  background-color: #19541a;
+  color: rgb(65,65,65);
+  background-color: #ff6c0a;
   transform: rotateY(180deg);
 }
 
-.contribs{
-  margin-top: 3%;
+.list_of_contribs{
+  padding-right: 80%;
 }
 .flip-card-last{
   background-color: transparent;
@@ -252,8 +252,15 @@ body {
   .all_cards{
     padding-top: 24%;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-}
+    gap: 10px;}
+  .flip-card{
+    background-color: transparent;
+    width: 30vw;
+    height: 38vh;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+
 .flip-card{
   width: 100%;
 }
@@ -293,7 +300,9 @@ margin-left: 0;
 .all_cards{
   padding-top: 43%;
 }
+
 }
+
 @media (max-width: 700px) {
   .nav {
     position: fixed;
