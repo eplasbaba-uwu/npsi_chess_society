@@ -339,5 +339,13 @@ body {
       align-items: center;
     }
   }
+  @media (max-width: 425px){
+    .btn {
+      margin-left: 36%;
+    }
+    .btn1{
+      margin-left: 32.5%;
+    }
+  }
   
 
