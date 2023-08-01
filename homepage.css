@@ -349,9 +349,9 @@ body {
       margin-left: 32.5%;
     }
   }
-  @media (max-width: 391px){
+  @media (max-width: 400px){
     .hero{
-      padding-top: 17%;
+      padding-top: 24%;
     }
     .btn {
       margin-left: 34.5%;
