@@ -155,7 +155,7 @@ body {
 
 .all_cards{
   padding-top: 13%;
-  margin: 0 auto; /*centers for us*/
+  margin: 0 auto; 
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 15px;
@@ -168,6 +168,10 @@ body {
   height: 38vh;
   perspective: 1000px;
   font-family: sans-serif;
+  -webkit-backface-visibility: hidden;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .title {
@@ -175,6 +179,9 @@ body {
   font-weight: 900;
   text-align: center;
   margin: 0;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .flip-card-inner {
@@ -184,10 +191,16 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .flip-card-front, .flip-card-back {
@@ -200,17 +213,27 @@ body {
   backface-visibility: hidden;
   border: 1px solid rgb(65, 65, 65);
   border-radius: 1rem;
+  -webkit-backface-visibility: hidden;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .flip-card-front {
   color: #ff6c0a;
   background-color: rgb(65, 65, 65);
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .flip-card-back {
   color: rgb(65,65,65);
   background-color: #ff6c0a;
   transform: rotateY(180deg);
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .list_of_contribs{
@@ -233,9 +256,11 @@ body {
   margin-left:50%;
 }
 .flip-card-last:hover .flip-card-inner {
+    cursor: pointer;
   transform: rotateY(180deg);
 }
 .flip-card-slast:hover .flip-card-inner {
+    cursor: pointer;
   transform: rotateY(180deg);
 }
 @media(max-width:1085px) {
@@ -353,4 +378,30 @@ margin-left: 0;
     justify-content: space-between;
     align-items: center;
   }
+}
+@media(max-width:2800px) {
+  .all_cards{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;}
+  .flip-card{
+    background-color: transparent;
+    width: 35vw;
+    height: 38vh;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+
+.flip-card{
+  width: 100%;
+}
+.flip-card-slast
+{
+width: 100%;
+margin-left: 0;
+}
+.flip-card-last
+{
+width: 100%;
+margin-left: 50%;
+}
 }
