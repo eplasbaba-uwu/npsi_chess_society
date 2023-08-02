@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -20,12 +21,16 @@ button {
   font: inherit;
   color: inherit;
 }
+span {
+  font-family: "IBM Plex Mono", sans-serif;
+}
 
 /* BASE STYLES */
 body {
   background-color: #222327;
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: 'Lato', sans-serif;
   min-height: 100vh; /* Changed from 500vh */
+  font-weight: bolder;
 }
 
 /* NORMAL STYLES */
@@ -172,7 +177,8 @@ body {
     font-weight: bold;
     transition: background-color 0.2s ease-in-out;
     margin-left: 39%;
-    
+    font-family: "IBM Plex Mono", sans-serif;
+
   }
 
   .btn1 {
@@ -186,7 +192,8 @@ body {
     font-weight: bold;
     transition: background-color 0.2s ease-in-out;
     margin-left: 36.5%;
-    margin-top:3%
+    margin-top:3%;
+    font-family: "IBM Plex Mono", sans-serif;
   }
   .btn2 {
     display: inline-block;
@@ -198,6 +205,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.2s ease-in-out;
+    font-family: "IBM Plex Mono", sans-serif;
   }
   
   .btn:hover, .btn1:hover {
@@ -248,6 +256,7 @@ body {
     font-size: 44px;
     font-style: italic;
     margin-bottom: 20px;
+    
   }
   
   .Inspiration__author {
