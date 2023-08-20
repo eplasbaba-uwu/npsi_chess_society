@@ -22,8 +22,6 @@ Welcome to the NPSI Chess Society's official website repository. This website is
 
 - **Chess Resources:** Access a collection of chess resources, including tutorials, strategies, and tips to improve your chess skills.
 
-- **Member Profiles:** Explore profiles of our chess club members and their achievements.
-
 - **Contact Information:** Easily get in touch with us through our contact page.
 
 - **Responsive Design:** The website is designed to be responsive and accessible on various devices.
