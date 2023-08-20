@@ -2,7 +2,7 @@
 
 Welcome to the NPSI Chess Society's official website repository. This website is designed to showcase our chess club, its activities, and provide valuable resources for chess enthusiasts.
 
-![NPSI Chess Society Logo](/logos/logo.png)
+![NPSI Chess Society Logo](/logos/logo2.png)
 
 ## Table of Contents
 - [About](#about)
