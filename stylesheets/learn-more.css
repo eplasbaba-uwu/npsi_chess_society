@@ -133,7 +133,47 @@ body {
   opacity: 0.8;
   transition: all 0.3s ease-in-out;
 }
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
 
+.dropdown .nav__link {
+  position: relative;
+}
+
+.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  list-style: none;
+  padding: 5px 0;
+  background-color: #192f4a; /* Dark blue background color */
+  border: 1px solid #0d1d32; /* Darker border color */
+  border-radius: 10px; /* Curved edges */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 200px; /* Adjust the width as needed */
+}
+
+.dropdown .dropdown-link {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff; /* White text color */
+  transition: background-color 0.2s;
+}
+
+.dropdown .dropdown-link:hover {
+  background-color: #3165a2; /* Hover color */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 /* For JS */
 .nav--open {
   left: 50% !important;
